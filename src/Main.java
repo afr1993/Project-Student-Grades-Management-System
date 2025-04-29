@@ -8,7 +8,7 @@ public class Main {
         sum = 0;
         average = 0;
         double highest = Double.MIN_VALUE;
-        double lowest=Double.MAX_VALUE;
+        double lowest = Double.MAX_VALUE;
 
         System.out.println("Enter grades for 10 students: ");
         for (int i = 0; i < grades.length; i++){
@@ -23,7 +23,7 @@ public class Main {
                 lowest = grades[i];
             }
         }
-        average = sum/ grades.length;
+        average = sum / grades.length;
 
         for(int i = 0; i < grades.length; i++){
             System.out.println("The grade for the student "+(i+1)+" :"+grades[i]);
